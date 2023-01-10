@@ -1,1 +1,7 @@
 // code your solution here
+function superbowlWin(record) {
+    for (let i = 0; i < record.length; i++) {
+        if(record.find("W"))
+        return record[i];
+    }
+}
